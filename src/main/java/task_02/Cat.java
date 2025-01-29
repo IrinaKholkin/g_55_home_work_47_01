@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Cat {
 
-    private double weight;
+    private final double weight;
 
     public Cat(double weight) {
         this.weight = weight;
