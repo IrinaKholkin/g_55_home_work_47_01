@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Dog {
 
-    private String color;
+    private final String color;
 
     public Dog(String color) {
         this.color = color;
